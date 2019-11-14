@@ -1,0 +1,92 @@
+.body-1 {
+
+  opacity: 1.0;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+.st-2 {
+	font-family: cursive;
+	float: right;
+}
+.st-2:hover {
+	color: white;
+}
+.logo-1 {
+	margin-top: 0px;
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pos-f-t{
+	width: 100%;
+}
+
+.cls-1 {
+	  width: 100%
+	background-size: auto;
+	animation-name: animate1;
+	animation-duration: 40s;
+	animation-iteration-count: infinite
+
+}
+@keyframes animate1 {
+	     0% {background-image: url('image/background1.jpg');}
+		50% {background-image: url('image/background2.jpg');}
+		100% {background-image: url('image/background3.jpg');}
+		/*100% {background-image: url('image/background.png');}*/
+}
+.st-1
+	{
+		animation-name: animate;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		text-align: center;
+		letter-spacing: 10px;
+		font-size: 22px;
+		font-family: Palatino Linotype;
+		  cursor: pointer;
+	}
+
+	@keyframes animate
+	{
+		0% {color: red}
+		25% {color: green}
+		50% {color: blue}
+		75% {color: orange}
+		100% {color: yellow}
+	}
+.st-1:hover{
+	font-size: 28px;
+}
+
+.container-1 {
+
+	width: 100%;
+	height: 550px;
+	padding-left: 150px;
+	/*padding-right: 100px;*/
+	padding-top: 70px;
+
+}
+.img-1,.img-2 ,.img-3,.img-4,.img-5,.img-6,.img-7,.img-7,.img-8{
+	border-radius: 5%;
+  width: 225px;
+   height: 224px;
+   box-shadow: 5px 5px 10px black;
+     cursor: pointer;
+  
+
+}
+.img-1:hover,.img-8:hover,.img-2:hover,.img-3:hover,.img-4:hover,.img-5:hover,.img-6:hover,.img-7:hover,.img-8:hover{
+	border-radius: 40%;
+
+}
+
+.img-2:hover{
+	border-radius: 40%;
+}
+
+
